@@ -1,29 +1,29 @@
-kd100.py
+kdcx.py
 ========
 
-I'm a small script that help you get express package information use kuaidi100.com api.
+利用kuaidi100.com网站提供的api进行快递单进度查询的小程序。
 
-Install
+安装
 =======
 
-..  code:: bash
+..  bash命令:
 
     $ pip install kd100
 
-Usage
+用法
 =====
 
-``kd100``: normal use, type code in shell, return info.
+``kd100``: 普通用法，在命令行输入快递单号，回车后返回快递信息。
 
-``kd100 -c code``: ``-c`` means code, specified express code.
+``kd100 -c code``: ``-c`` 意为code, 指定的快递代码.
 
-``kd100 -c code -o filename``: ``-o`` means output, specified output filename.
+``kd100 -c code -o filename``: ``-o`` 表示output，指定输出文件名。
 
-``kd100 -c code -o filename -p company_name``: ``-p`` means company, specified the express company name, useful when auto guess is error.
+``kd100 -c code -o filename -p company_name``: ``-p`` 是company,指公司，指定快递公司名称，自动猜测错误时有用。
 
-Type ``kd100 -h`` for more help.
+输入 ``kd100 -h`` 获取帮助。
 
-Example
+示例
 =======
 
 ..  code:: bash
@@ -47,7 +47,7 @@ Example
 
 ..  image:: http://ww4.sinaimg.cn/large/88e401f0gw1evjtouw9hgj20m20cnjyl.jpg
 
-Changelog
+更新日志
 =========
 
 - v0.0.5
